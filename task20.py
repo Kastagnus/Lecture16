@@ -31,9 +31,22 @@ class LinkedList:
         second_last_node.next = None
         print("Removed last element from linked list")
 
+    def display_elements(self):
+        current_node = self.head
+        while current_node:
+            if current_node.next:
+                print(f"{current_node.data}", end="=>>")
+            else:
+                print(f"{current_node.data}")
+            current_node = current_node.next
 
-ll = LinkedList()
-ll.append(1)
-ll.append(2)
-ll.append(3)
-ll.remove()
+
+node_list = LinkedList()
+node_list.append(1)
+node_list.append(2)
+node_list.append(3)
+node_list.append(4)
+node_list.display_elements()
+node_list.remove()
+node_list.display_elements()
+
