@@ -11,7 +11,6 @@ def welcome_and_display(limit, word):
 
 # ფუნქცია რომელიც მომხმაებელს ასოს შეყვანას სთხოვს და ამოწმებს რომ შეყვანილი მონაცემი ნამდვილად ასოა
 def ask_input():
-    while True:
 
         letter = input("Enter a letter: ")
         if letter.isalpha():
@@ -77,8 +76,8 @@ def start_game():
             check_limit(limit)
         # თუ მომხმარებელმა შეცდომით (გაუფრთხილებლობით) შეიყვანა სიმბოლოები, ვაფრთხილებთ და არ ვართმევთ მცდელობას
         elif len(letter) > 1 and len(letter) != len(word):
-            print(f"You can only write 1 letter or the full word, try again !")
-            print("".join(charlist), end="")
+            print("\nYou can only write 1 letter or the full word, try again !")
+            print("".join(charlist))
         else:
             used_letters.append(letter)
             limit -= 1
