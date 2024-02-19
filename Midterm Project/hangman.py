@@ -1,6 +1,3 @@
-# მომხმარებლისგან ვიღებთ ინფუთს
-# ვამოწმებთ რომ ერთი სიმბოლოა
-# ვამოწმებთ რომ სტრინგია
 import random
 
 word_list = ["shipment", "battleship", "cargo", "flower", "accounting", "heartless", "batmobile", "blackboard",
