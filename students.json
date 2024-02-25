@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Will Smith",
+        "mark": 75,
+        "address": {
+            "city": "New York",
+            "street": "5th Ave"
+        },
+        "grade": "C"
+    },
+    {
+        "id": 2,
+        "name": "Mark Zuckerberg",
+        "mark": 95,
+        "address": {
+            "city": "New Jersey",
+            "street": "19 Lincoln Ave"
+        },
+        "grade": "A"
+    },
+    {
+        "id": 3,
+        "name": "Donald Trump",
+        "mark": 100,
+        "address": {
+            "city": "Chicago",
+            "street": "10 Michigan Ave"
+        },
+        "grade": "A"
+    },
+    {
+        "id": 4,
+        "name": "Joe Biden",
+        "mark": 45,
+        "address": {
+            "city": "Washington",
+            "street": "18th Street NW"
+        },
+        "grade": "D"
+    }
+]
