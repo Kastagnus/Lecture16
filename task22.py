@@ -80,19 +80,19 @@ def deserialization(filename="object.csv"):
     return obj
 
 
-# # ჩაწერს და წაიკითხავს JSON-ი
-# serialization(student)
-# obj = deserialization("object.csv")
-# print(obj)
+# ჩაწერს და წაიკითხავს JSON-ი
+serialization(student)
+obj = deserialization("object.csv")
+print(obj)
 
-# # ცდის ჩაწერას და წაკითხვას ჯეისნოთ, თუ არ გამოვიდა მიმართავს pickle-ს
-# serialization(myanimal)
-# obj = deserialization("object.csv")
-# obj.describe_pet()
+# ცდის ჩაწერას და წაკითხვას ჯეისნოთ, თუ არ გამოვიდა მიმართავს pickle-ს
+serialization(myanimal)
+obj = deserialization("object.csv")
+obj.describe_pet()
 
-# #ცდის ჩაწერას ჯეისონით, მერე pickle-ით, ბოლოს თუ ესენი წარუმატებელია მიმართვს Dill-ს
-# serialization(lambda_func)
-# obj = deserialization("object.csv")
-# print(obj(2))
+#ცდის ჩაწერას ჯეისონით, მერე pickle-ით, ბოლოს თუ ესენი წარუმატებელია მიმართვს Dill-ს
+serialization(lambda_func)
+obj = deserialization("object.csv")
+print(obj(2))
 
 
